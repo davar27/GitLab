@@ -15,17 +15,90 @@
       font-size: 40px;
       fill: black;
     }
+    body{
+      border-style: solid;
+      border-width: 8px;
+      border-color: pink;
+    }
+    .gridcontainer{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      width: 90%;
+      margin: 0 auto;
+    
+    }
+    .container {
+      font-size: 12px;
+      height: 90%;
+      width: calc 100% - px;
+      border-style: solid;
+      border-color: red;
+      border-width: 5px;
+    }
+    
+    .blank{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      height: 50px;
+    }
+    .centered{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      text-align: center;
+      margin-top: 10x;
+      margin-bottom: 1px;
+    }
+.single{
+  text-align: center;
+}
+.bold{
+  font-weight: 800;
+}
+
   </style>
 </head>
 <body>
-  <svg xmlns="http://www.w3.org/2000/svg">
-    <path id="curve" d="M 150 150 A 100 15 0 0 1 330 160" fill="transparent" />
-    
-    <text>
-      <textPath href="#curve">
-        RISOTTO
-      </textPath>
-    </text>
-  </svg>
+  <div class="container">
+      <div class="gridcontainer"> 
+        <div class="blank"></div>
+        <div style="margin-bottom: 10px; margin-top: -70px" class="centered">  <svg xmlns="http://www.w3.org/2000/svg">
+          <path id="curve" d="M 120 150 A 110 15 0 0 1 320 160" fill="transparent" />
+          <text>
+            <textPath href="#curve">
+              RISOTTO
+            </textPath>
+          </text>
+        </svg></div>
+        <div class="centered">Risotto is a dish from northern Italy made with rice and stock (a liquid flavored with ingredients such as vegetables or chicken). The most important ingredient is good quality risotto rice, ideally carnaroli or vialone nano, both of which are available from good food shops. When cooked, this rice has a firm texture as well as a creamy softness. This may be hard to imagine, but when you have cooked a good risotto, you'll see what I mean.</div>
+        <div class="centered">Once you know how to make a basic risotto, you can add other ingredients, like vegetables or meat. In Milan, risotto is made with saffron, which adds a beautiful golden color.</div>
+        <div style="margin-bottom: -30px;"class="blank"><hr></hr></div>
+        <div class="single bold">SERVES</div>
+        <div class="single bold">PREPERATION TIME</div>
+        <div class="single bold">COOKING TIME</div>
+        <div class="single">4</div>
+        <div class="single">10 minutes</div>
+        <div class="single">40 minutes</div>
+        <div class="blank"><hr></hr></div>
+
+
+  <div class="centered">1&frac12; ounces Parmeasan cheese</div>
+  <div class="centered">-</div>
+  <div class="centered">5-6&frac14; cups vegetable or schien stock<br>(if you are not using fresh stock, use a good<br> vegetable bouillon powder)</be></div>
+  <div class="centered">-</div>
+  <div class="centered">1 onion</div>
+  <div class="centered">-</div>
+  <div class="centered">3 tablespoons sweet butter</div>
+  <div class="centered">-</div>
+  <div class="centered">1 tablespoon olive oil</div>
+  <div class="centered">-</div>
+  <div class="centered">scant 1&frac34; cups risotto rice</div>
+  <div class="centered">-</div>
+  <div style="margin-bottom: 30px;" class="centered"> &frac12; teaspoon saffron threads</div>
+
+
+
+    </div>
+    </div>
 </body>
 </html>
+
