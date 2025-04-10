@@ -1,0 +1,17 @@
+@tailwind base; /* Preflight will be injected here */
+@tailwind components;
+@tailwind utilities; 
+
+.normaltext{
+    font-family: 'Courier New';
+    background-color: rgb(255, 247, 240);
+    color: white;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 500;
+    font-size: 333px;
+    text-transform: capitalize;
+}
+
